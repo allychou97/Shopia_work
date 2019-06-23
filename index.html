@@ -395,8 +395,11 @@
             hambuger.classList.toggle('change');
         })
         
-        AOS.init();
-        AOS.refresh();
+        AOS.init({
+            once: true, 
+        });
+        
+        //AOS.refresh();
         
 
     </script>
